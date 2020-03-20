@@ -3,7 +3,7 @@ import { switchMap, map } from 'rxjs/operators';
 import { zip, of } from 'rxjs';
 
 /**
- * Ejercicio: 
+ * Ejercicio:  just a test
  *  Realizar 2 peticiones HTTP (ajax) una después de otra.
  *  
  *  La primera debe de obtener el personaje de Star Wars:
