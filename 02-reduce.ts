@@ -17,7 +17,6 @@ import {filter, reduce} from 'rxjs/operators'
   const datos = [1, 2, 'foo', 3, 5, 6, 'bar', 7, 8];
 
   from(datos).pipe(
-    // Trabajar aquí
     filter<any>((data) => !isNaN(data)),
     reduce((acc,curr) => acc + curr)
   ).subscribe( console.log ) // La salida debe de ser 32
